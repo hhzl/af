@@ -309,21 +309,24 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* Buttons fixed postions for a particular landscape layout of a mobile phone                        */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+#question, #answer, #moveBw, #moveFd {
+    height: 100px;
+    width: 100px;
+}
 
 #question {
     position: absolute;
     left: 1px;
     top: 1px;
-    height: 100px;
-    width: 120px;
 }
 
 #answer {
     position: absolute;
     top: 1px;
     right: 1px;
-    height: 100px;
-    width: 120px;
 }
 
 
@@ -331,8 +334,6 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     position: absolute;
     left: 1px;
     top: 120px;
-    height: 100px;
-    width: 120px;
 }
 
 #moveFd {
@@ -340,9 +341,11 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     position: absolute;
     top: 120px;
     right: 1px;
-    width: 120px;
-    height: 100px;
 }
+
+
+
+
 
 #log {display: none}
 
@@ -353,8 +356,8 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 
 #content {
     font-size: 3.5em;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 105px;
+    margin-right: 105px;
 }
 
 
