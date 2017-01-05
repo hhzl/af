@@ -330,7 +330,7 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 #moveBw {
     position: absolute;
     left: 0px;
-    top: 1400px;
+    top: 120px;
     height: 100px;
     width: 120px;
     left: 4px;
@@ -339,7 +339,7 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 #moveFd {
     margin-right: 0px;
     position: absolute;
-    top: 140px;
+    top: 120px;
     right: 0px;
     width: 120px;
     height: 100px;
