@@ -39,7 +39,7 @@
 
 <!-- ===================================================================================== -->
     
-<h1 id="title">LearnWords2 18c</h1>
+<h1 id="title">LearnWords2 18d</h1>
 
 
 <!--  - - - - - - - - -   -->
@@ -298,11 +298,14 @@ var LWgui = {
 
    moveQuestionForward: function() {LWgui.display("log","lw.moveQuestionForward()"); 
                                     lw.moveQuestionForward();
-                                    LWgui.display("content",".");
+                                    
+                                    LWgui.display("content", (lw.question()).word );
                    }, 
 
    moveQuestionBackwards: function() {LWgui.display("log","lw.moveQuestionBackwards()"); 
-                                      lw.moveQuestionBackwards()
+                                      lw.moveQuestionBackwards();
+
+                                      LWgui.display("content", (lw.question()).word );
                    },
 
    removeWords: function() { LWgui.display("settingsLog","lw.db.removeWords()");

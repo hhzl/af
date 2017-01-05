@@ -312,16 +312,16 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 
 #question {
     position: absolute;
-    left: 4px;
-    top: 0px;
+    left: 1px;
+    top: 1px;
+    height: 100px;
     width: 120px;
-    height: 80px;
 }
 
 #answer {
     position: absolute;
-    top: 0px;
-    right: 4px;
+    top: 1px;
+    right: 1px;
     height: 100px;
     width: 120px;
 }
@@ -329,18 +329,17 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 
 #moveBw {
     position: absolute;
-    left: 0px;
+    left: 1px;
     top: 120px;
     height: 100px;
     width: 120px;
-    left: 4px;
 }
 
 #moveFd {
     margin-right: 0px;
     position: absolute;
     top: 120px;
-    right: 0px;
+    right: 1px;
     width: 120px;
     height: 100px;
 }
@@ -353,12 +352,21 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 }
 
 #content {
-    font-size: 4em;
+    font-size: 3.5em;
+    margin-left: 120px;
+    margin-right: 120px;
 }
-
 
 
 #title {
     background-color: #E6E6E6;
     color: white;
+}
+
+
+#title {
+    font-size: 0.7em;
+    top: 0px;
+    position: absolute;
+    margin-top: 0px;
 }
